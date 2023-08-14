@@ -16,11 +16,11 @@ int main(void)
 	if (n > 0)
 	{
 		printf("positive");
-	} 
+	}
 	else if (n == 0)
 	{
 		printf("zero");
-	} 
+	}
 	else
 	{
 		printf("negative");
