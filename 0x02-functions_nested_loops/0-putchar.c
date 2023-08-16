@@ -11,7 +11,9 @@ int main(void)
 	return (0);
 }
 
-/* print_putchar - to print */
+/**
+ * print_putchar - Prints the _putchar string followed by a new line
+ */
 void print_putchar(void)
 {
 	char str[] = "_putchar\n";
