@@ -11,8 +11,10 @@ int main(void)
 	return (0);
 }
 
+/* print_putchar - to print */
 void print_putchar(void)
 {
 	char str[] = "_putchar\n";
+
 	write(1, str, sizeof(str) - 1);
 }
