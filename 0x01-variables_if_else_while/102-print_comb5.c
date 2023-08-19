@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		for (n = i; n < 100; n++)
+		for (n = i + 1; n < 100; n++)
 		{
 			putchar('0' + i / 10);
 			putchar('0' + i % 10);
@@ -19,7 +19,7 @@ int main(void)
 			putchar('0' + n / 10);
 			putchar('0' + n % 10);
 
-			if (i != 99 || n != 99)
+			if (i != 98 || n != 99)
 			{
 				putchar(',');
 				putchar(' ');
