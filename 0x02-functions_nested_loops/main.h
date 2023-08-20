@@ -10,6 +10,16 @@ int _putchar(char i)
 {
         return write(1, &i, 1);
 }
-void print_alphabet(void);
+void print_alphabet(void)
+{
+        char letter = 'a';
+
+        while (letter <= 'z')
+        {
+        _putchar(letter);
+        letter++;
+        }
+        _putchar('\n');
+}
 
 #endif
