@@ -2,8 +2,6 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints the alphabet in lowercase
- *
  * main - check code
  *
  * Return: Always 0 (Success)
