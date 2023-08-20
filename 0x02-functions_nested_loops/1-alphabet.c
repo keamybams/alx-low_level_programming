@@ -7,11 +7,6 @@
  * Return: Always 0 (Success)
  */
 
-int _putchar(char i)
-{
-	return write(1, &i, 1);
-}
-
 void print_alphabet(void)
 {
 	char letter = 'a';
