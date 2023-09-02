@@ -1,10 +1,16 @@
 #include "main.h"
-#include <stdio.h>
+#include <stddef.h>
 
+/**
+ * rot13 - Encodes a string using ROT13.
+ * @s: The input string to be encoded.
+ *
+ * Return: A pointer to the encoded string.
+ */
 char *rot13(char *s)
 {
 	if (s == NULL)
-	return NULL;
+	return (NULL);
 
 	char *p = s;
 
