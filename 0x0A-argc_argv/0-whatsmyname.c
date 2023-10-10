@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 	{
 		name = last_slash + 1;
 	}
-	printf("%\n", name);
+
+	printf("%s\n", name);
 	return (0);
 }
